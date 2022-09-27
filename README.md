@@ -1,5 +1,9 @@
 # Kafka Example KEBDI
 
+This is an example project with a quick setup of a kafka broker and suggestions on how
+to interact with by using the CLI tool `plumber`. This can be used to experiment with
+kafka and try out it's functionalities and workings.
+
 ## Requirements:
 
 - `docker` installed
@@ -13,18 +17,16 @@
 In a terminal emulator run `sudo pacman -S docker docker-compose plumber` to install
 all requirements.
 
-### On *Ubuntu* (*Debian*) Linux
+### On *Ubuntu* (*Debian*) Linux (not tested)
 
-(Not tested)
 In a terminal emulator run `sudo apt install docker docker-compose plumber` to install
 all requirements.
 
-### On *MacOS*
+### On *MacOS* (not tested)
 
-(Not tested)
 In a terminal emulator run `brew tap batchcorp/public`, then `brew install docker docker-compose plumber`.
 
-### On Windows Or manual install
+### On Windows or manual install
 
 Consult the [Official Docker Website](https://www.docker.com/) and [Plumber on Github](https://github.com/batchcorp/plumber).
 
